@@ -8,18 +8,6 @@
 // Якщо знайдено заборонене слово (spam або sale), то функція повертає буль true
 // Якщо в рядку відсутні заборонені слова, функція повертає буль false
 
-// function checkForSpam(message) {
-//   let messageLower = message.toLowerCase();
-//   switch (messageLower) {
-//     case messageLower.includes('spam'):
-//       return true;
-//     case messageLower.includes('sale'):
-//       return true;
-//     default:
-//       return false;
-//   }
-// }
-
 function checkForSpam(message) {
   let messageLower = message.toLowerCase();
   if (messageLower.includes('spam')) {
